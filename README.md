@@ -1,6 +1,6 @@
 # Previsão de Temperatura em Delhi com Prophet
 
-Análise exploratória e modelo de séries temporais para prever a temperatura média diária em Nova Delhi, Índia, utilizando o Facebook Prophet. O projeto cobre 4 anos de dados climáticos (2013–2017) e avalia o desempenho do modelo contra dados reais de teste.
+Análise exploratória e modelo de séries temporais para prever a temperatura média diária em Nova Delhi, Índia, utilizando o modelo Prophet. O projeto cobre 4 anos de dados climáticos (2013–2017) e avalia o desempenho do modelo contra dados reais de teste.
 
 ---
 
