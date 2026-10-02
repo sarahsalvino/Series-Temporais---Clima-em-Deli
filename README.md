@@ -109,6 +109,9 @@ O modelo foi treinado com os dados de 2013 a 2017 e gerou previsões para os **1
 ### Gráfico: Temperatura Real vs. Prevista (Jan–Abr 2017)
 O modelo foi avaliado comparando as previsões com os dados reais do arquivo de teste, cobrindo o período de janeiro a abril de 2017. Visualmente, a curva prevista acompanha de perto a curva real, com o intervalo de confiança cobrindo a grande maioria dos valores reais.
 
+<img width="1146" height="396" alt="image" src="https://github.com/user-attachments/assets/4d12d5f4-9009-498a-b0f9-9968d49ce4a4" />
+
+
 ### Métricas
 
 | Métrica | Valor | Interpretação |
@@ -129,8 +132,6 @@ O projeto demonstrou que o Prophet é uma ferramenta poderosa e acessível para 
 Um ponto importante do projeto foi a **necessidade de tratar os dados antes da modelagem**: 7 registros com valores impossíveis de pressão atmosférica foram identificados e corrigidos com a mediana dos valores válidos. Esse tipo de limpeza é fundamental para garantir que o modelo não aprenda padrões baseados em erros de medição.
 
 <img width="816" height="479" alt="image" src="https://github.com/user-attachments/assets/5aa68c0c-212f-42e2-9b7d-efc21732cad1" />
-
-<img width="1146" height="396" alt="image" src="https://github.com/user-attachments/assets/4d12d5f4-9009-498a-b0f9-9968d49ce4a4" />
 
 
 Como próximos passos, seria interessante incluir **regressores externos** no Prophet (como umidade e velocidade do vento) para tentar reduzir ainda mais o erro, e avaliar o modelo em períodos mais longos de teste.
